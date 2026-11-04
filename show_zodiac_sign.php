@@ -22,6 +22,32 @@
             $signo_descricao = $signo->descricao;
             break;
         }
+
+        #$mes_data_nascimento = (int) $partes_data_nascimento[1];
+        #$dia_data_nascimento = (int) $partes_data_nascimento[2];
+
+        #$mes_inicio_signo = (int) $partes_data_inicio[1];
+        #$mes_fim_signo = (int) $partes_data_fim[1];
+
+        #if($mes_data_nascimento == $mes_inicio_signo) {
+        #    $dia_data_inicio = (int) $partes_data_inicio[0];
+
+        #    if($dia_data_nascimento >= $dia_data_inicio) {
+        #        $signo_nome = $signo->signoNome;
+        #        $signo_descricao = $signo->descricao;
+        #        break;
+        #    }
+        #}
+
+        #if($mes_data_nascimento == $mes_fim_signo) {
+        #    $dia_data_fim = (int) $partes_data_fim[0];
+
+        #    if($dia_data_nascimento <= $dia_data_fim) {
+        #        $signo_nome = $signo->signoNome;
+        #        $signo_descricao = $signo->descricao;
+        #        break;
+        #    }
+        #}
     }
 ?>
 
